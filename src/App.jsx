@@ -117,7 +117,7 @@ const App = () => {
             <Route path="/contract">
               <Contract />
             </Route>
-           
+
             <Route path="/ethereum-boilerplate">
               <Redirect to="/wallet" />
             </Route>
@@ -127,17 +127,11 @@ const App = () => {
           </Switch>
         </div>
       </Router>
-      <Footer style={{ textAlign: "center" }}>
-        
-      </Footer>
+      <Footer style={{ textAlign: "center" }}></Footer>
     </Layout>
   );
 };
 
-export const Logo = () => (
-  <div style={{ display: "flex" }}>
-    
-  </div>
-);
+export const Logo = () => <div style={{ display: "flex" }}></div>;
 
 export default App;

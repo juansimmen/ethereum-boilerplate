@@ -21,11 +21,8 @@ function TokenPrice(props) {
 
   const toggleDisplayStyle = () => setIsUSDMode(!isUSDMode);
 
- 
-
   return (
     <div style={styles.token}>
-      
       <span
         style={{ cursor: "pointer" }}
         onClick={toggleDisplayStyle}

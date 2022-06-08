@@ -19,7 +19,6 @@ function MenuItems() {
       }}
       defaultSelectedKeys={[pathname]}
     >
-     
       <Menu.Item key="/wallet">
         <NavLink to="/wallet">👛 Wallet</NavLink>
       </Menu.Item>

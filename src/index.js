@@ -5,8 +5,6 @@ import App from "./App";
 import { MoralisProvider } from "react-moralis";
 import "./index.css";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
-;
-
 /** Get your free Moralis Account https://moralis.io/ */
 
 const APP_ID = process.env.REACT_APP_MORALIS_APPLICATION_ID;
