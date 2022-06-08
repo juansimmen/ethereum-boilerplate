@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useMoralis } from "react-moralis";
 import { getEllipsisTxt } from "helpers/formatters";
 import Blockie from "../Blockie";

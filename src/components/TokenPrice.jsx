@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useState } from "react";
 import { useTokenPrice } from "react-moralis";
 
@@ -20,15 +21,11 @@ function TokenPrice(props) {
 
   const toggleDisplayStyle = () => setIsUSDMode(!isUSDMode);
 
-  const noLogoToken = "https://etherscan.io/images/main/empty-token.png";
+ 
 
   return (
     <div style={styles.token}>
-      <img
-        src={props.image || noLogoToken}
-        alt="logo"
-        style={{ height: props?.size || "35px" }}
-      />
+      
       <span
         style={{ cursor: "pointer" }}
         onClick={toggleDisplayStyle}

@@ -1,10 +1,11 @@
+/* eslint-disable prettier/prettier */
 import React, { StrictMode } from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import { MoralisProvider } from "react-moralis";
 import "./index.css";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
-import QuickStart from "components/QuickStart";
+;
 
 /** Get your free Moralis Account https://moralis.io/ */
 
@@ -24,13 +25,6 @@ const Application = () => {
         <App isServerInfo />
       </MoralisProvider>
     );
-  else {
-    return (
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <QuickStart />
-      </div>
-    );
-  }
 };
 
 ReactDOM.render(

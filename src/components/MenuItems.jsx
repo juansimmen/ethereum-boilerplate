@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { useLocation } from "react-router";
 import { Menu } from "antd";
 import { NavLink } from "react-router-dom";
@@ -18,9 +19,7 @@ function MenuItems() {
       }}
       defaultSelectedKeys={[pathname]}
     >
-      <Menu.Item key="/quickstart">
-        <NavLink to="/quickstart">🚀 Quick Start</NavLink>
-      </Menu.Item>
+     
       <Menu.Item key="/wallet">
         <NavLink to="/wallet">👛 Wallet</NavLink>
       </Menu.Item>
